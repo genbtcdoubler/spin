@@ -49,7 +49,7 @@ CURLOPT_URL => "$url",
 $obenz = curl_exec($hacker);
 curl_close($hacker);
 $js = json_decode($obenz,true);
-echo "alert alert-success : ".$js["alert alert-success"]."#balance-center".$js["#balance-center"]."\n";
+echo "alert alert-success : ".$js["alert alert-success"]."Congratulations".$js["Congratulations"]."\n";
 sleep(5);
 }
 ?>
